@@ -1,12 +1,13 @@
 # Model selection for predictive modeling tool (Early screening for oral cancer)
 
-### For code : open the jupyter notebook Model_Selection.ipynb
+### For code : 
+open the jupyter notebook Model_Selection.ipynb
 
 This project explains the steps followed to select the optimal model for classifying oral cancer lesions based on colour images. A mass-screening tool was developed (in MATLAB/Python) based on this work. For more details, visit IIT Roorkee Masters thesis repository **(Belvin Thomas , "Identification and classification of oral cancer lesions in color images using SVM and ANN", 2013)**
 
 The model selection with optimal parameters is an important step in the development of a predictive modelling tool which can efficiently handle the bias-variance trade-off. It ensures that the final model is capable of effectively handling the issues of underfitting and overfitting. **An ensemble of the selected models and associated parameters is suggested for optimum generalisation.** This will ensure unbiased prediction while dealing with in an unseen image in a real-world mass-screening scenario.
 
-## This file contains :
+## The notebook file contains :
 
 **1) Loading the cleaned data:** It contains texture features obtained from a repository of cancerous and non-cancerous images. Suitable features are selected from a set of texture features based on Gray level co-occurrance and Grey level run length. 
 
